@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tistory.jaimemin.common.WebAdapter;
 import com.tistory.jaimemin.membershipservice.application.port.in.RegisterMembershipCommand;
 import com.tistory.jaimemin.membershipservice.application.port.in.RegisterMembershipUseCase;
 import com.tistory.jaimemin.membershipservice.domain.Membership;
 
-import common.WebAdapter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

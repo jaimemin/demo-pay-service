@@ -3,7 +3,8 @@ package com.tistory.jaimemin.membershipservice.application.port.in;
 import javax.validation.constraints.AssertTrue;
 import javax.validation.constraints.NotNull;
 
-import common.SelfValidating;
+import com.tistory.jaimemin.common.SelfValidating;
+
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

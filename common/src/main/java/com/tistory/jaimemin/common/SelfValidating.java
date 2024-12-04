@@ -1,4 +1,4 @@
-package common;
+package com.tistory.jaimemin.common;
 
 import java.util.Set;
 

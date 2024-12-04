@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tistory.jaimemin.common.WebAdapter;
 import com.tistory.jaimemin.membershipservice.application.port.in.FindMembershipCommand;
 import com.tistory.jaimemin.membershipservice.application.port.in.FindMembershipUseCase;
 import com.tistory.jaimemin.membershipservice.domain.Membership;
 
-import common.WebAdapter;
 import lombok.RequiredArgsConstructor;
 
 @WebAdapter
@@ -24,7 +24,7 @@ public class FindMembershipController {
 		FindMembershipCommand command = FindMembershipCommand.builder()
 			.membershipId(membershipId)
 			.build();
-		
+
 		return ResponseEntity.ok(findMembershipUseCase.findMembership(command));
 	}
 }

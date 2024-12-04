@@ -1,4 +1,4 @@
-package common;
+package com.tistory.jaimemin.common;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Documented
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface UseCase {
+public @interface WebAdapter {
 
 	/**
 	 * The value may indicate a suggestion for a logical component name,
