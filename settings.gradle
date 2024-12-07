@@ -2,5 +2,4 @@ rootProject.name = 'demo-pay-service'
 
 include 'membership-service'
 include 'common'
-include 'common'
-
+include 'banking-service'
